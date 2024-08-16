@@ -1,0 +1,134 @@
+.header {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.79);
+    padding: 20px 5px;
+    margin-bottom: 10px;
+    box-shadow: 7px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: 'Crimson Text', serif;
+  }
+  
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+  .slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .mySlides {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .custom-container h3 {
+    font-family: 'Crimson Text', serif; 
+    font-weight: 700; 
+    font-size: 28px; 
+    line-height: 36px; 
+  }
+  
+  .custom-container p {
+    font-family: 'Crimson Text', serif; 
+    font-weight: 400; 
+    font-size: 20px; 
+    line-height: 31px;
+    text-align: justify;
+  }
+  
+  .service-section, .help-section {
+    background-color: rgba(138, 205, 215, 0.7);
+    padding: 50px;
+    margin-bottom: 3cm;
+  }
+  
+  .service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .service {
+    flex: 0 0 calc(33.33% - 20px);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .service:hover {
+    transform: scale(1.05);
+  }
+  
+  .service i {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .service h4 {
+    color: #333;
+    margin-top: 0;
+  }
+  
+  .service p {
+    color: #555;
+  }
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-img-top {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  

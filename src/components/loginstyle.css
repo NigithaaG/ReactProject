@@ -1,0 +1,67 @@
+/* loginstyle.css */
+
+/* Ensure the blur effect */
+.blur {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .imgclass img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .login-cont {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .line {
+    width: 50px;
+    border-top: 2px solid #000;
+    margin: 1rem 0;
+  }
+  
+  .form-control, .form-select {
+    border: 2px solid #000;
+    border-radius: 5px;
+    height: 49px;
+  }
+  
+  .rounded-button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    font-size: 1.2rem;
+  }
+  
+  .rounded-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
